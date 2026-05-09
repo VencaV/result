@@ -9,9 +9,9 @@
     "typecheck": "pnpm --filter @vencav/result build && pnpm -r typecheck"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "eslint": "^9.27.0",
-    "typescript": "^5.8.3",
+    "@types/node": "^25.6.2",
+    "eslint": "^10.3.0",
+    "typescript": "^6.0.3",
     "typescript-eslint": "^8.32.1"
   }
 }
