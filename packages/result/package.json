@@ -1,8 +1,13 @@
 {
   "name": "@vencav/result",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lightweight, type-safe Result type for TypeScript",
-  "keywords": ["result", "typescript", "error-handling", "functional"],
+  "keywords": [
+    "result",
+    "typescript",
+    "error-handling",
+    "functional"
+  ],
   "author": "Václav Vracovský <vaclavvracovsky@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/VencaV/result#readme",
@@ -28,7 +33,11 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist", "LICENSE", "README.md"],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "engines": {
     "node": ">=20"
   },

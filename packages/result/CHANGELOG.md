@@ -1,0 +1,3 @@
+# @vencav/result
+
+## 0.1.1
