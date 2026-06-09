@@ -6,6 +6,7 @@
     "test": "pnpm -r test",
     "lint": "pnpm -r lint",
     "lint:fix": "pnpm -r lint:fix",
+    "lint:publish": "pnpm --filter \"./packages/*\" exec publint",
     "typecheck": "pnpm --filter @vencav/result build && pnpm -r typecheck",
     "changeset": "changeset",
     "release": "pnpm build && changeset publish"
@@ -14,6 +15,7 @@
     "@changesets/cli": "^2.29.0",
     "@types/node": "^22.0.0",
     "eslint": "^9.27.0",
+    "publint": "^0.3.0",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.32.1"
   }
